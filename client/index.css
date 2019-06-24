@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+
+html {
+    /* This changes the scroll to a smooth scroll */
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+ 
+nav{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+    align-content: center;
+    
+}
+
+/*    Call class to change each section. "height" in "vh"/ "width" in "wh"   */
+
+.first{
+    background-color: goldenrod;
+    height: 60vh;
+    width: 100wh;
+}
+
+.second{
+    background-color: blue;
+    height: 60vh;
+    width: 100wh;
+}
+.third{
+    background-color: orange;
+    height: 60vh;
+    width: 100wh;
+}
+.fourth{
+    background-color: lightseagreen;
+    height: 60vh;
+    width: 100wh;
+}
+.fifth{
+    background-color: lightcoral;
+    height: 60vh;
+    width: 100wh;
+}
+.sixth{
+    background-color: lightgray;
+    height: 60vh;
+    width: 100wh;
+}
